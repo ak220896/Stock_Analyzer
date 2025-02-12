@@ -4,10 +4,12 @@ import streamlit as st
 st.markdown(
     """
         <h2 style='color:lightgreen;'>Welcome to the Stock Analyzer App!</h2>
-        <p style='color:white;'>Analyze the stock market data with ease!</p>
+        <p style='color:lightblue;'>Analyze the stock market data with ease!</p>
     """, 
     unsafe_allow_html=True
 )
+
+
 
 col1, col2 = st.columns(2)
 
